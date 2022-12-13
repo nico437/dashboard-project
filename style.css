@@ -29,10 +29,10 @@
 
 
   .search-icon {
-    position: absolute;
     top: 6px;
     left: 8px;
     width: 14px;
+    padding-top: 5px;
   }
 
 
@@ -86,11 +86,29 @@
     color: white;
   }
 
+  .sidebar .logo {
+    display: grid;
+    grid-row: 1;
+    max-height: 100px;
+    padding-top: 20px;
+  }
+  
   .sidebar .icons {
     display: grid;
-    align-items: center;
+    grid-row: 2;
+    font-weight: 600;
+    height: 95vh;
   }
 
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin: 10px 0;
+    height: 50px;
+  }
+ 
   .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
