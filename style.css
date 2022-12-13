@@ -17,7 +17,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     background-color: #f8fafc;
-    border: 2px solid black;
     height: 10vh;
   }
 
@@ -25,7 +24,6 @@
     display: grid;
     width: 40vw;
     min-width: 100px;
-    border: 2px solid black;
   }
 
 
@@ -51,17 +49,13 @@
   .user-settings {
     display: grid;
     grid-template-columns: 1fr 1fr; 
-    border: 2px solid black;
     justify-self: end;
     padding: 5px;
   }
 
-  .welcome-message {
-    border: 2px solid black;
-  }
+ 
 
   .button-area {
-    border: 2px solid black;
     padding-top: 10px;
     padding-right: 10px;
     display: grid;
