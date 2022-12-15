@@ -141,7 +141,6 @@
     background-color: #FFFFFF;
     color: black;
     text-align: center;
-    border: 2px solid black;
     display: grid;
     grid-template-rows: 2fr 2fr;
     height: 200px;
