@@ -122,6 +122,11 @@
     border: black solid 3px;
   }
  
+
+  .your-projects {
+    text-align: left;
+  }
+
   .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -139,9 +144,18 @@
     display: grid;
     grid-template-rows: 2fr 2fr;
     height: 200px;
+    padding-left: 10px;
   }
 
+  .card > .title {
+    font-size: large;
+    padding-top: 50px;
+    font-weight: 600;
+  }
 
+  .card > p {
+    text-align: start;
+  }
 
   .announcements-area {
     display: grid;
