@@ -120,6 +120,7 @@
   .main-content {
     background-color: #e4e4e7;
     border: black solid 3px;
+    height: 100vh;
   }
  
 
@@ -133,7 +134,7 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 15px;
     background-color: #e4e4e7;
-    border: 2px solid black;
+    height: 80vh;
   }
 
   .projects .card {
