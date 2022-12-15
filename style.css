@@ -129,7 +129,7 @@
 
   .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     gap: 15px;
     background-color: #e4e4e7;
