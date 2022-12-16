@@ -192,6 +192,8 @@
   .trending-area {
     display: grid;
     grid-row: 2 / 3;
-    background-color: rgb(144, 163, 59);
+    background-color: #FFFFFF;
     border: 2px solid black;
   }
+
+  
