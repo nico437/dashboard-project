@@ -157,11 +157,37 @@
     text-align: start;
   }
 
+  .announcements-title {
+    float: right;
+    border: black solid 2px;
+    margin-right: 470px;
+    padding-bottom: 10px;
+  }
+
   .announcements-area {
     display: grid;
     grid-row: 2 / 3;
-    background-color: rgb(141, 39, 152);
+    background-color: #FFFFFF;
     border: 2px solid black;
+  }
+
+  .announcements-area > .announcement {
+    height: 100px;
+    width: 300px;
+    font-size: 5px;
+  }
+
+  .title2 {
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .announcement > p {
+    text-align: start;
+    padding-left: 10px;
   }
 
   .trending-area {
