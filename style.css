@@ -96,12 +96,15 @@
     grid-row: 1;
     max-height: 100px;
     padding-top: 20px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
   }
   
   .sidebar .icons {
     display: grid;
     grid-row: 2;
-    font-weight: 600;
+    font-weight: 500;
     height: 95vh;
   }
 
