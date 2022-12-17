@@ -119,13 +119,15 @@
 
   .main-content {
     background-color: #e4e4e7;
-    border: black solid 3px;
     height: 100vh;
   }
  
 
   .your-projects {
     text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
   }
 
   .projects {
@@ -135,6 +137,7 @@
     gap: 15px;
     background-color: #e4e4e7;
     height: 80vh;
+    margin-left: 50px;
   }
 
   .projects .card {
@@ -171,6 +174,9 @@
     grid-row: 2 / 3;
     background-color: #FFFFFF;
     margin-left: 20px;
+    height: 300px;
+    margin-top: 15px;
+    margin-left: 100px;
   }
 
   .announcements-area > .announcement {
@@ -196,9 +202,10 @@
     display: grid;
     grid-row: 2 / 4;
     background-color: #FFFFFF;
-    border: 2px solid black;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
+    height: 410px;
+    margin-left: 100px;
   }
 
   .trending-area > .trending {
@@ -214,3 +221,4 @@
     width: auto;
     margin-bottom: 20px;
   }
+
