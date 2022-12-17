@@ -158,9 +158,12 @@
   }
 
   .announcements-title {
-    float: right;
-    margin-right: 470px;
-    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e4e4e7;
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
   }
 
   .announcements-area {
@@ -191,12 +194,23 @@
 
   .trending-area {
     display: grid;
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
     background-color: #FFFFFF;
     border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
   }
 
   .trending-area > .trending {
     height: 100px;
     width: 300px;
+  }
+
+  .trending-title {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e4e4e7;
+    text-align: left;
+    width: auto;
+    margin-bottom: 20px;
   }
