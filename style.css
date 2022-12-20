@@ -202,6 +202,12 @@
     text-align: start;
   }
 
+  .project-icons > ul > li {
+    float: right;
+    display: inline-block;
+    padding: 16px;
+  }
+
   .announcements-title {
     font-size: 20px;
     font-weight: 600;
