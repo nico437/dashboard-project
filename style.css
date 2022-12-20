@@ -201,6 +201,7 @@
   .card > p {
     text-align: start;
     padding-top: 5px;
+    word-break: break-all;
   }
 
   .project-icons > ul > li {
