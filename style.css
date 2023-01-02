@@ -235,14 +235,9 @@
     padding: 15px;
   }
 
-  .announcements-title {
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #0ea5e9;
-    text-align: center;
-    width: auto;
+  .testtitle {
+    padding-right: 220px;
     margin-bottom: 20px;
-    color: white;
   }
 
   .announcements-area {
@@ -251,7 +246,6 @@
     background-color: #FFFFFF;
     margin-left: 20px;
     height: 300px;
-    margin-top: 15px;
     margin-left: 100px;
   }
 
@@ -260,6 +254,10 @@
     width: 300px;
     font-size: 5px;
   }
+
+  .announcement {
+    border-bottom: 1px solid rgba(7, 7, 7, 0.3);
+}
 
   .title2 {
     font-size: 15px;
