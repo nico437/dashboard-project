@@ -44,6 +44,7 @@
   .search-bar {
     max-width: 750px;
     margin-top: 10px;
+    padding-top: 10px;
   }
   
   .search-icon {
@@ -51,6 +52,7 @@
     margin-right: 10px;
     margin-top: 10px;
     margin-left: 40px;
+    padding-top: 10px;
   }
 
   label::before {
@@ -65,9 +67,6 @@
     justify-self: end;
     padding: 15px;
     gap: 5px;
-  }
-
-  .user-settings div {
   }
 
   .user-settings .notification {
@@ -96,7 +95,7 @@
  }
 
  .oakley {
-    padding-top: 5px;
+    padding-top: 10px;
  }
 
   .button-area {
