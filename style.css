@@ -139,17 +139,15 @@
   }
 
   .sidebar img {
-    margin-left: 115px;
-    margin-right: 30px;
+    margin-left: 85px;
     margin-top: 70px;
   }
 
   .dashboard {
     width: 200px;
-    margin-left: 150px;
-    margin-right: 40px;
+    margin-left: 125px;
     font-size: 30px;
-    margin-top: 75px;
+    margin-top: 77px;
   }
   
   .sidebar .icons {
