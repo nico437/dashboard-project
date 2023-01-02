@@ -61,7 +61,7 @@
 
   .user-settings {
     display: grid;
-    grid-template-columns: 150px 150px 150px; 
+    grid-template-columns: 100px 100px 100px; 
     justify-self: end;
     padding: 15px;
     gap: 5px;
@@ -71,7 +71,17 @@
     border: black solid 2px;
   }
 
-  
+  .user-settings .notification {
+    padding-top: 15px;
+  }
+
+  .user-settings .userpicture {
+    padding-top: 5px;
+  }
+
+  .user-settings .morgan {
+    padding-top: 10px;
+  }
 
  .welcome-message {
     margin-bottom: 20px;
