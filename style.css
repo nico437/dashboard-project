@@ -61,10 +61,17 @@
 
   .user-settings {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 150px 150px 150px; 
     justify-self: end;
     padding: 15px;
+    gap: 5px;
   }
+
+  .user-settings div {
+    border: black solid 2px;
+  }
+
+  
 
  .welcome-message {
     margin-bottom: 20px;
@@ -157,6 +164,7 @@
   .main-content {
     background-color: #e4e4e7;
     height: 100vh;
+    margin-top: 50px;
   }
  
 
