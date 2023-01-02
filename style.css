@@ -84,9 +84,19 @@
   }
 
  .welcome-message {
+    display: grid;
+    grid-template-columns: 100px 400px; 
     margin-bottom: 20px;
     padding-left: 20px;
     text-align: left;
+ }
+
+ .userpicture2 {
+    padding-left: 30px;
+ }
+
+ .oakley {
+    padding-top: 5px;
  }
 
   .button-area {
