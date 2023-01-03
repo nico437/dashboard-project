@@ -255,7 +255,12 @@
     font-size: 5px;
   }
 
-  .announcement {
+  .announcement::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 20px;
     border-bottom: 1px solid rgba(7, 7, 7, 0.3);
 }
 
@@ -263,6 +268,7 @@
     font-size: 15px;
     font-weight: 500;
     padding-bottom: 5px;
+    padding-top: 15px;
     text-align: start;
     padding-left: 10px;
   }
@@ -275,11 +281,17 @@
     font-weight: 200;
   }
 
+  .testtitle2 {
+    padding-top: 380px;
+    padding-right: 295px;
+  }
+
+
   .trending-area {
     display: grid;
     grid-row: 2 / 4;
     background-color: #FFFFFF;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
     height: 410px;
     margin-left: 100px;
